@@ -2,7 +2,6 @@
 
 ## **Industry Type: Global Aviation & Aerospace Logistics**
 
-### **Project Lead: Chandan Chaudhari**
 
 ---
 ## **Business Scenario:**
