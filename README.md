@@ -1,3 +1,5 @@
+<img width="100" height="100" alt="Company_Logo" src="https://github.com/user-attachments/assets/8d12dc71-005e-4de8-bad8-f1838bf18e13" />
+
 ## **Project: AeroX Next-Gen Data Infrastructure**
 
 ## **Industry Type: Global Aviation & Aerospace Logistics**
@@ -43,3 +45,10 @@ To fulfill this brief, the designer must provide:
 3. The Physical Implementation: SQL scripts to create the database, including stored procedures for booking and triggers for maintenance alerts.
 
 4. Operational Analytics: A suite of complex queries to provide the board with "Real-time Performance Metrics.
+
+---
+
+<img width="1377" height="768" alt="Verlox_Design_Template" src="https://github.com/user-attachments/assets/742a0742-ef5e-4f39-a628-7f32f3a1a016" />
+
+
+
