@@ -74,7 +74,11 @@ Design an enterprise-grade DBMS that:
 
 ---
 
-<img width="1377" height="768" alt="Verlox_Design_Template" src="https://github.com/user-attachments/assets/742a0742-ef5e-4f39-a628-7f32f3a1a016" />
+<img width="1246" height="630" alt="Aerox_NextGen " src="https://github.com/user-attachments/assets/a0d8eb6b-27a6-4294-ba99-8661e18a2647" />
+
+
+
+
 
 
 
