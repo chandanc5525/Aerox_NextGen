@@ -8,43 +8,69 @@
 ---
 ## **Business Scenario:**
 
-AeroX Pvt Ltd is a rapidly expanding mid-sized airline aiming to transition from regional domestic routes to a high-frequency international carrier. Currently, the company relies on fragmented legacy systems where flight schedules, crew rosters, and passenger bookings are managed in silos.
+AeroX Pvt Ltd is a rapidly growing airline transitioning from regional operations to high-frequency international routes, targeting 500+ daily flights and 10 million annual passengers.
 
-As the volume of operations scales toward 500+ daily flights and 10 million annual passengers, the manual overhead and data synchronization lag are beginning to impact the "bottom line" and brand reputation.
+The current system operates in data silos (flight schedules, crew, bookings), leading to inefficiencies, synchronization delays, and limited visibility. As operations scale, these limitations are impacting revenue, operational efficiency, and regulatory compliance.
 
----
-
-## **The Problem Definition (The "Pain Points"):**
-
-The executive board of AeroX Pvt Ltd has identified five critical failures in the current infrastructure that the new system must eliminate:
-
-1. Operational Blindness: Dispatchers cannot see real-time aircraft availability, leading to Inefficient Flight Scheduling and ground delays.
-
-2. Revenue Leakage: The lack of integrated seat inventory leads to poor dynamic pricing, causing the airline to lose money on under-filled flights or miss out on high-demand premiums.
-
-3. The Overbooking Crisis: Current lag in booking synchronization results in customer dissatisfaction, costly rebooking fees, and negative PR.
-
-4. Compliance Vulnerability: Difficulty in tracking pilot "flight hours" and aircraft "maintenance cycles" creates significant Regulatory Compliance Risks with aviation authorities.
-
-5. Data Stagnation: Leadership cannot generate weekly load-factor reports, making it impossible to analyze performance metrics or plan new routes.
+AeroX requires a centralized, scalable, and high-concurrency DBMS to serve as the single source of truth for all airline operations.
 
 ---
 
-## **The Problem Statement (The "Architect's Mission"):**
+## **The "Pain Points:**
 
-The Designer is tasked with the end-to-end design and implementation of the AeroX Enterprise DBMS. This system must serve as the 'Single Source of Truth' for all flight operations, passenger lifecycles, and asset maintenance. The solution must provide a high-concurrency environment that ensures data integrity for real-time bookings, automates regulatory safety checks, and provides analytical views for executive decision-making, ultimately optimizing revenue and operational safety.
+The system must eliminate:
 
-Required Deliverables for AeroX Pvt Ltd
+1. Lack of real-time visibility in flight operations
 
-To fulfill this brief, the designer must provide:
+2. Revenue loss due to poor seat inventory and pricing
 
-1. A Conceptual Schema: An Entity-Relationship Diagram (ERD) mapping the complex world of aviation.
+3. Overbooking and booking inconsistencies
 
-2. The Logical Design: A fully normalized relational schema (3NF) to prevent data redundancy.
+4. Compliance risks in crew hours and aircraft maintenance
 
-3. The Physical Implementation: SQL scripts to create the database, including stored procedures for booking and triggers for maintenance alerts.
+5. Inability to generate real-time operational insights
 
-4. Operational Analytics: A suite of complex queries to provide the board with "Real-time Performance Metrics.
+---
+
+## **The "Architect's Mission:**
+
+Design an enterprise-grade DBMS that:
+
+1. Enables Real-Time Operations
+
+* Centralize flight schedules, aircraft availability, and crew assignments
+
+* Provide real-time visibility to dispatch teams
+
+2. Optimizes Revenue Management
+
+* Maintain accurate seat inventory
+
+* Support dynamic pricing and demand-based allocation
+
+3. Prevents Overbooking Issues
+
+* Ensure synchronized, real-time booking transactions
+
+* Maintain strong consistency and concurrency control
+
+4. Ensures Regulatory Compliance
+
+* Track pilot flight hours and duty limits
+
+* Monitor aircraft maintenance cycles with automated alerts
+
+5. Supports High Concurrency & Scalability
+
+* Handle large-scale simultaneous booking operations
+
+* Use optimized indexing and partitioning strategies
+
+6. Enables Real-Time Analytics
+
+* Provide load factor, route performance, and revenue metrics
+
+* Support decision-making with low-latency queries
 
 ---
 
